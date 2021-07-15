@@ -1,0 +1,59 @@
+.event-button {
+    height: 40px;
+    transition: 0.1s ease-in-out;
+    width: 100px;
+    border: 2px solid white;
+    background-color: #161616;
+    color: white;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.navbar{
+  /* border-bottom: rgb(255, 153, 0) 6px solid; */
+  box-shadow: 0px 0px 40px 7px #379b48;
+}
+
+.event-button:hover {
+    background-color: white;
+    color: #161616;
+}
+
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #a7d0e5,
+      0 0 80px #a7d0e5,
+      0 0 90px #a7d0e5,
+      0 0 100px #a7d0e5,
+      0 0 150px #a7d0e5;
+  }
+  .container-fill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .fill {
+    box-shadow: 0px 0px 7px 4px grey;
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    background-size: contain;
+    background-position: center;
+  }
+
+  #projects {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  #main-footer {
+    background-color: black;
+    color: #fff;
+  }
